@@ -1,0 +1,36 @@
+*{
+    text-decoration: none;
+}
+body{
+    text-align: center;
+    margin:0;
+    width: 100%;
+    height: 100%;
+    background-color: #fffdde;
+}
+#wrap{
+    margin:0 25%;
+}
+
+.hd{
+    padding:1%;
+    color:white;
+    margin:5% 25% 2% 25%;
+    text-align: center;
+    background-color: #43a047;
+}
+.box{
+    border-right:solid 2px black;
+    border-left:solid 2px black;
+}
+.con{
+    text-align: left;
+    border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: #43a047;
+    margin: 5% 10%;;
+}
+.bt{
+    text-align: right;
+    margin:2% 30% 0 0 ;
+}
