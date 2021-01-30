@@ -14,4 +14,4 @@ while($result = $stmt->fetch(PDO::FETCH_ASSOC)){
 
     var_dump($message);
 
-
+//おやすみ
