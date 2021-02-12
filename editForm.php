@@ -43,7 +43,6 @@ $record = $stmt->fetch();
     <div class="bt"><a href="./index.php">戻る</a></div>
     <div id="wrap">
 
-
         <div class="box">
             <div class="con">
                 <label for="date">日付</label>
