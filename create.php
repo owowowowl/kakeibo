@@ -8,6 +8,7 @@ $title = $_POST['title'];
 $amount = $_POST['amount'];
 $type = $_POST['type'];
 
+
 $sql = "INSERT INTO records(title,type,amount,date,created_at,updated_at) VALUES(:title, :type,:amount,:date,now(),now())";
 $stmt = $pdo->prepare($sql);
 
