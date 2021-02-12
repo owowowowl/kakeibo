@@ -64,6 +64,7 @@ $records = $stmt->fetchAll();
                                 <p>消去</p>
                             </a></td>
                     </tr>
+                    
                     <?php endforeach;?>
                 </tbody>
             </table>
