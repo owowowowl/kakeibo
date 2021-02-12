@@ -3,10 +3,10 @@
 include_once('./dbconnect.php');
 
 
-$date = $_POST['date'];
-$title = $_POST['title'];
-$amount = $_POST['amount'];
-$type = $_POST['type'];
+$date = htmlspecialchars($_POST['date']);
+$title = htmlspecialchars($_POST['title']);
+$amount = htmlspecialchars($_POST['amount']);
+$type = htmlspecialchars($_POST['type']);
 
 
 $sql = "INSERT INTO records(title,type,amount,date,created_at,updated_at) VALUES(:title, :type,:amount,:date,now(),now())";
