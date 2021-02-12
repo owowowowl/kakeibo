@@ -49,7 +49,6 @@ $records = $stmt->fetchAll();
 
                 <tbody>
                     <?php foreach($records as $record): ?>
-
                     <tr>
                         <td class="td-1"> <?php echo h($record['date']);?></td>
 
