@@ -4,15 +4,12 @@ include_once('./dbconnect.php');
 
 
 
+
 $date = $_POST['date'];
 $title = $_POST['title'];
 $amount = $_POST['amount'];
 $type = $_POST['type'];
 
-/*echo $date;
-echo $title;
-echo $amount;
-echo $type;*/
 
 $sql = "INSERT INTO records(title,type,amount,date,created_at,updated_at) VALUES(:title, :type,:amount,:date,now(),now())";
 
