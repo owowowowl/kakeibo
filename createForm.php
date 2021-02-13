@@ -1,6 +1,3 @@
-<?
-include_once('./function.php');
-?>
 
 <!DOCTYPE html>
 <html lang="ja">
@@ -19,7 +16,7 @@ include_once('./function.php');
     <form class="" action="./create.php" method="POST">
     <div class="bt"><a href="./index.php">戻る</a></div>
 
-    <input type="hidden" name="id" value="<?= h($id);?>">
+    
 
     <div id="wrap">
         <div class="box">
